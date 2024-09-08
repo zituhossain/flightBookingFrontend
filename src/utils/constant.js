@@ -1,11 +1,8 @@
-export const JOB_API_END_POINT = "http://localhost:8000/api/v1/job";
+export const USER_API_END_POINT =
+  "https://flight-booking-backend-six.vercel.app/api/user";
 
-export const APPLICATION_API_END_POINT =
-  "http://localhost:8000/api/v1/application";
-export const COMPANY_API_END_POINT = "http://localhost:8000/api/v1/company";
+export const FLIGHT_API_END_POINT =
+  "https://flight-booking-backend-six.vercel.app/api/flight";
 
-export const USER_API_END_POINT = "http://localhost:8000/api/user";
-
-export const FLIGHT_API_END_POINT = "http://localhost:8000/api/flight";
-
-export const BOOKING_API_END_POINT = "http://localhost:8000/api/booking";
+export const BOOKING_API_END_POINT =
+  "https://flight-booking-backend-six.vercel.app/api/booking";
