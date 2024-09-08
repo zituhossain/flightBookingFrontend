@@ -30,5 +30,6 @@ This is the frontend of the Flight Booking System, a MERN stack application that
    cd flightBookingfrontend
 ## Install dependencies:
     npm install
+    
 ## Run the application:    
    npm run dev
