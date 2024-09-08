@@ -11,7 +11,7 @@ import Pagination from "./shared/Pagination";
 const Flights = () => {
   // useGetAllAdminFlights();
   const [page, setPage] = useState(1);
-  const limit = 2; // Number of flights per page
+  const limit = 10; // Number of flights per page
   const { totalPages, currentPage, setCurrentPage } = useGetAllAdminFlights(
     page,
     limit
