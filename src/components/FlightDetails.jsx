@@ -112,6 +112,13 @@ const FlightDetails = () => {
             </DialogTrigger>
             <DialogContent>
               <DialogTitle>Book Your Flight</DialogTitle>
+              {!token && (
+                <div className="my-4 bg-yellow-100 p-4 rounded-lg">
+                  <p className="text-red-500 font-bold">
+                    Please login first to book a flight.
+                  </p>
+                </div>
+              )}
               <div className="my-4">
                 <label className="block text-gray-700">Number of Seats</label>
                 <input
@@ -160,7 +167,7 @@ const FlightDetails = () => {
                 <Button
                   onClick={bookFlightHandler}
                   className="bg-[#7209b7] hover:bg-[#38045a]"
-                  disabled={isSubmitting}
+                  disabled={!token || isSubmitting}
                 >
                   {isSubmitting ? "Booking..." : "Confirm Booking"}
                 </Button>
