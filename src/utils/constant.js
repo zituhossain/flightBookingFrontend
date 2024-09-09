@@ -1,8 +1,5 @@
-export const USER_API_END_POINT =
-  "https://flightbookingbackend-ql1d.onrender.com/api/user";
+export const USER_API_END_POINT = "http://localhost:8000/api/user";
 
-export const FLIGHT_API_END_POINT =
-  "https://flightbookingbackend-ql1d.onrender.com/api/flight";
+export const FLIGHT_API_END_POINT = "http://localhost:8000/api/flight";
 
-export const BOOKING_API_END_POINT =
-  "https://flightbookingbackend-ql1d.onrender.com/api/booking";
+export const BOOKING_API_END_POINT = "http://localhost:8000/api/booking";
